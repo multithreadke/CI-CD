@@ -1,0 +1,19 @@
+{
+  "name": "cekl-web",
+  "version": "1.0.0",
+  "description": "web service to expose student records",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "test": "npm install inherits && mocha"
+  },
+  "engines": {
+    "node": "^4.6.1"
+  },
+  "author": "Multithreadke Enrique",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
